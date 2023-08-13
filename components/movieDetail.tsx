@@ -1,15 +1,14 @@
 import React,{useState,useEffect} from "react";
 import { DetailRes } from "../services/types";
-interface Iprops{
+type Iprops={
   data:DetailRes
 }
-const MovieDetailComp:React.FC = (props:Iprops) => {
+const MovieDetailComp:React.FC<Iprops> = (props) => {
 
   const [data,setData]=useState<DetailRes|null>(null)
   useEffect(() => {
     setData(props.data)
   }, [])
-  console.log("data=>",data)
   
   return (
     <>
