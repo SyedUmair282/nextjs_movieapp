@@ -10,7 +10,7 @@ const Hero:React.FC = () => {
             <Image src={Icon} width={350} alt="Picture of the author" />
           </div>
           <div className="h-full w-full flex flex-col justify-center items-center">
-            <h1 className="font-bold text-4xl font-mono text-white text-center">Let's Have A Look Of Popular Movies Website</h1>
+            <h1 className="font-bold text-4xl font-mono text-white text-center">Let&apos;s Have A Look Of Popular Movies Website</h1>
             <h3 className="font-bold text-2xl font-mono text-red-700">Check it out!</h3>
           </div>
         </div>
