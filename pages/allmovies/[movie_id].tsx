@@ -8,6 +8,7 @@ interface Iprops{
   result:DetailRes
 }
 const MovieDetail:NextPage<Iprops> = ({result}) => {
+  console.log("check github")
   return (
     <>
       <Head children={undefined}>
